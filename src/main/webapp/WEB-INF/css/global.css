@@ -1,0 +1,235 @@
+footer {
+	display: block;
+}
+.footer {
+	background: rgb(221, 221, 221); padding: 0px; width: 100%; height: 124px; position: absolute; min-width: 1170px; box-sizing: border-box;
+}
+.footer p {
+	height: 26px; color: rgb(137, 137, 137); line-height: 26px; font-size: 14px;
+}
+.footer p.userOnline {
+	margin-right: 38px;
+}
+.footer .footerT {
+	height: 70px; border-bottom-color: rgb(55, 56, 57); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.footer .footerTWrap {
+	background-color: rgb(51, 51, 51);
+}
+.footer .footerT .footerTL {
+	float: left;
+}
+.footer .footerT .footerTL ul {
+	padding: 27px 0px 0px;
+}
+.footer .footerT .footerTL li {
+	margin-right: 30px; float: left;
+}
+.footer .footerT .footerTL li a {
+	color: rgba(255, 255, 255, 0.5); font-size: 14px;
+}
+.footer .footerT .footerTL li a:hover {
+	color: rgba(255, 255, 255, 1); text-decoration: underline;
+}
+.footer .footerT .footerTR {
+	color: rgb(153, 153, 153); padding-top: 27px; font-size: 12px; float: right; position: relative;
+}
+.footer i {
+	color: rgb(142, 142, 143); font-size: 16px;
+}
+.footer i:hover {
+	color: rgb(255, 255, 255);
+}
+.footer .footerTR .f-fl {
+	margin-right: 30px;
+}
+.footer .footerTR .f-fl a {
+	color: rgb(153, 153, 153);
+}
+.footer .footerTR .f-fl a:visited {
+	color: rgb(153, 153, 153);
+}
+.footer .footerTR .f-fr li {
+	margin-right: 10px; float: left; position: relative;
+}
+.footer .footerTR .f-fr li .media {
+	opacity: 0.5; -moz-opacity: 0.5; -khtml-opacity: 0.5;
+}
+.footer .footerTR .f-fr li:hover .media {
+	opacity: 1; -moz-opacity: 1; -khtml-opacity: 1;
+}
+.media-box {
+	background: rgb(255, 255, 255); padding: 10px 0px; border: 1px solid rgb(212, 212, 212); border-image: none; text-align: center;
+}
+.media-box .jt {
+	background: url("../img/box-jt.png"); width: 12px; height: 8px; right: 7px; bottom: -8px; display: inline-block; position: absolute;
+}
+.media-box .ewm {
+	padding: 0px 14px; border-right-color: rgb(229, 229, 229); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.media-box :last-of-type.ewm {
+	border: currentColor; border-image: none;
+}
+.media-box .ewm img {
+	width: 100px;
+}
+.media-box .weixin1 {
+	float: left; box-sizing: border-box;
+}
+.media-box .weixin2 {
+	float: left;
+}
+.media-box .weixin1 img {
+	width: 100px;
+}
+.media-box .weixin2 img {
+	width: 100px;
+}
+.media-box p {
+	font-size: 12px;
+}
+.footer .footerTR .f-fr li .media-box.wx-box {
+	padding: 5px; left: -210px; box-sizing: border-box;
+}
+.media-box .weixin p > span {
+	margin-left: 30px;
+}
+.media-box .ewm p {
+	height: auto; color: rgb(153, 153, 153); line-height: 100%; font-size: 12px;
+}
+.footer .footerTR .f-fr li .media-box {
+	left: -103px; top: -160px; display: none; position: absolute; z-index: 999;
+}
+.footer .footerTR .f-fr li:hover .media-box {
+	display: block;
+}
+.footer .footerTR .f-fr li .media-box.qq-box {
+	left: -113px;
+}
+.footerB {
+	padding: 20px 0px 0px; width: 100%; height: 34px; min-width: 1180px; background-color: rgb(51, 51, 51);
+}
+.footerB .container {
+	overflow: hidden;
+}
+.footerB .footerBL {
+	color: rgb(153, 153, 153); font-size: 12px;
+}
+.footerB .footerBR {
+	color: rgb(255, 255, 255); font-size: 12px; float: right;
+}
+.footerB .footerBR div {
+	margin-left: 22px; display: inline-block;
+}
+.footerB .footerBR .footerBRName {
+	color: rgb(153, 153, 153); margin-right: 5px;
+}
+.footerB .footerBR .volume {
+	margin-right: 3px; display: inline-block;
+}
+.footerB .footerBR :last-of-type.volume {
+	margin-right: 0px;
+}
+.footerB .footerBR .volume i {
+	color: rgb(153, 153, 153);
+}
+.footerB .footerBR .volume i.gang {
+	margin: 0px 2px 0px 5px;
+}
+.footerB .footerBR .websocketStatus {
+	color: rgb(153, 153, 153);
+}
+.footerB .footerBR .footerBRTimer {
+	width: 14px; vertical-align: middle; display: inline-block;
+}
+.media {
+	background: url("../img/medias.png") no-repeat; width: 17px; height: 16px; display: inline-block;
+}
+.media.media-fb {
+	background-position: -2px 0px;
+}
+.media.media-tt {
+	background-position: -22px 0px;
+}
+.media.media-wb {
+	background-position: -45px 0px;
+}
+.media.media-qq {
+	background-position: -68px 0px;
+}
+.media.media-wx {
+	background-position: -91px 0px;
+}
+.media.media-wx {
+	background-position: -91px 0px;
+}
+.media.media-rd {
+	background-position: -115px 0px;
+}
+.media.media-sk {
+	background-position: -139px 0px;
+}
+.media.media-telegram {
+	background-position: -167px 0px;
+}
+.media.media-email {
+	background-position: -194px 0px;
+}
+.wify {
+	background: url("../img/wify.png") no-repeat; width: 17px; height: 12px; display: inline-block;
+}
+.wify.wify-connect {
+	background-position: 0px 0px;
+}
+.wify.wify-reconnect {
+	background-position: -50px;
+}
+.telegram {
+	text-align: center; display: none;
+}
+.telegram .telegram-title {
+	margin: 30px 0px 25px;
+}
+.telegram .telegram-title img {
+	margin-bottom: 14px;
+}
+.telegram .telegram-title h4 {
+	color: rgb(51, 51, 51); line-height: 100%; font-size: 16px;
+}
+.telegram li {
+	text-align: left; margin-bottom: 20px; float: left; display: inline-block; position: relative;
+}
+.telegram ul li span {
+	width: 60px; text-align: right; line-height: 28px; font-size: 12px; font-weight: bold; margin-right: 7px; float: left;
+}
+.telegram li:nth-of-type(2) {
+	margin-left: 30px;
+}
+.telegram li:nth-of-type(4) {
+	margin-left: 30px;
+}
+.telegram li:nth-of-type(6) {
+	margin-left: 30px;
+}
+.telegram li:nth-of-type(8) {
+	margin-left: 30px;
+}
+.telegram li:nth-of-type(10) {
+	margin-left: 30px;
+}
+.telegram li label {
+	color: rgb(102, 102, 102); line-height: 100%; font-size: 12px; font-weight: bold; margin-bottom: 12px; display: inline-block;
+}
+.telegram li .linkBox {
+	background: url("../img/telegram_bg.png") no-repeat left; width: 217px; height: 28px; line-height: 28px; padding-left: 40px; float: left;
+}
+.telegram li .linkBox a {
+	color: rgb(51, 51, 51); font-size: 14px;
+}
+.telegram li .linkBox a:hover {
+	color: rgb(232, 179, 66); text-decoration: underline;
+}
+ul{
+   list-style:none;
+   padding-left:0px;
+}
